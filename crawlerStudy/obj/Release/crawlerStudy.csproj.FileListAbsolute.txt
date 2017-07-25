@@ -1,0 +1,11 @@
+E:\code\csharp爬虫\crawlerStudy\crawlerStudy\bin\Release\crawlerStudy.exe.config
+E:\code\csharp爬虫\crawlerStudy\crawlerStudy\bin\Release\crawlerStudy.exe
+E:\code\csharp爬虫\crawlerStudy\crawlerStudy\bin\Release\crawlerStudy.pdb
+E:\code\csharp爬虫\crawlerStudy\crawlerStudy\bin\Release\HtmlAgilityPack.dll
+E:\code\csharp爬虫\crawlerStudy\crawlerStudy\bin\Release\log4net.dll
+E:\code\csharp爬虫\crawlerStudy\crawlerStudy\bin\Release\Newtonsoft.Json.dll
+E:\code\csharp爬虫\crawlerStudy\crawlerStudy\bin\Release\HtmlAgilityPack.pdb
+E:\code\csharp爬虫\crawlerStudy\crawlerStudy\bin\Release\HtmlAgilityPack.xml
+E:\code\csharp爬虫\crawlerStudy\crawlerStudy\obj\Release\crawlerStudy.csprojResolveAssemblyReference.cache
+E:\code\csharp爬虫\crawlerStudy\crawlerStudy\obj\Release\crawlerStudy.exe
+E:\code\csharp爬虫\crawlerStudy\crawlerStudy\obj\Release\crawlerStudy.pdb
