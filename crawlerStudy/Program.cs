@@ -10,7 +10,7 @@ namespace crawlerStudy
             var crawler =new  Crawler();
             crawler.Run();
             
-            
+            //testGIT
             
 //            Thread t1 = new Thread(TestMethod);
 //            Thread t2 = new Thread(TestMethod);
