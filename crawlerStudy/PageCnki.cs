@@ -2,10 +2,11 @@
 {
     public class PageCnki:Page
     {
-        public PageCnki(string inputUrl):base(inputUrl){ }
-        public string InputUrl
+        public PageCnki(string html,string inputUrl):base(html,inputUrl) { }
+        
+        public string Html
         {
-            get { return base.InputUrl; }
+            get { return base.Html; }
         }
 
         public string Author

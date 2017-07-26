@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace crawlerStudy
@@ -30,8 +31,33 @@ namespace crawlerStudy
         
         public  static void InsertPageCnki(PageCnki pageCnki)
         {
-            InsertInToCrawler(pageCnki.Author, pageCnki.Institute, pageCnki.Classification
-                , pageCnki.MyAbstract, pageCnki.KeyWord, pageCnki.DOI, pageCnki.InputUrl, pageCnki.Title);
+            try
+            {
+                InsertInToCrawler(pageCnki.Author, pageCnki.Institute, pageCnki.Classification
+                    , pageCnki.MyAbstract, pageCnki.KeyWord, pageCnki.DOI, pageCnki.InputUrl, pageCnki.Title);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            } 
+        }
+
+        public static void UpdateJournalStatus(string journalKey, string year, string issue)
+        {
+              
+            SqlConnection con = new SqlConnection();
+
+
+            con.ConnectionString = "server=115.236.19.70,35033;database=Crawler;uid=shm;pwd=shm@zju";
+            con.Open();
+
+            SqlCommand com = new SqlCommand();
+            com.Connection = con;
+            com.CommandType = CommandType.Text;
+            com.CommandText = "update [dbo].[t_CNKI_status] set [issue] = '"+issue+"',year = '"+year+"' " +
+                              "where qikanKey = '" + journalKey+"'";
+            SqlDataReader dr = com.ExecuteReader();//执行SQL语句
         }
     }
 }

@@ -21,6 +21,7 @@ namespace crawlerStudy
 
                 var htmlDoc = new HtmlDocument();
                 htmlDoc.LoadHtml(result.Html);
+                
                 HtmlNodeCollection nodeCollection = htmlDoc.DocumentNode.SelectNodes("//span[@class = 'name']"); 
             
                 if(nodeCollection == null) return  new List<string>();

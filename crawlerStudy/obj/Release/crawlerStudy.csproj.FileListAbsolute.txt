@@ -9,3 +9,14 @@ E:\code\csharp爬虫\crawlerStudy\crawlerStudy\bin\Release\HtmlAgilityPack.xml
 E:\code\csharp爬虫\crawlerStudy\crawlerStudy\obj\Release\crawlerStudy.csprojResolveAssemblyReference.cache
 E:\code\csharp爬虫\crawlerStudy\crawlerStudy\obj\Release\crawlerStudy.exe
 E:\code\csharp爬虫\crawlerStudy\crawlerStudy\obj\Release\crawlerStudy.pdb
+E:\clone\CNKICrawler\crawlerStudy\bin\Release\crawlerStudy.exe.config
+E:\clone\CNKICrawler\crawlerStudy\bin\Release\crawlerStudy.exe
+E:\clone\CNKICrawler\crawlerStudy\bin\Release\crawlerStudy.pdb
+E:\clone\CNKICrawler\crawlerStudy\bin\Release\HtmlAgilityPack.dll
+E:\clone\CNKICrawler\crawlerStudy\bin\Release\log4net.dll
+E:\clone\CNKICrawler\crawlerStudy\bin\Release\Newtonsoft.Json.dll
+E:\clone\CNKICrawler\crawlerStudy\bin\Release\HtmlAgilityPack.pdb
+E:\clone\CNKICrawler\crawlerStudy\bin\Release\HtmlAgilityPack.xml
+E:\clone\CNKICrawler\crawlerStudy\obj\Release\crawlerStudy.csprojResolveAssemblyReference.cache
+E:\clone\CNKICrawler\crawlerStudy\obj\Release\crawlerStudy.exe
+E:\clone\CNKICrawler\crawlerStudy\obj\Release\crawlerStudy.pdb

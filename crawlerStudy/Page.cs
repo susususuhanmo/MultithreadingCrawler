@@ -5,24 +5,16 @@ namespace crawlerStudy
 {
     public class Page
     {
-        private readonly string _inputUrl;
+       
         private readonly HtmlDocument _htmlDoc;
-        public string InputUrl
+        public string Html { get; set; }
+        public string InputUrl { get; set; }
+        public Page(string html,string inputUrl)
         {
-            get { return _inputUrl; }
-        }
-        public Page(string inputUrl)
-        {
-            _inputUrl = inputUrl;
-            var httpHelper = new HttpHelper();
-            var result = httpHelper.GetHtml(
-                new HttpItem()
-                {
-                    URL = _inputUrl
-                });
-
+            Html = html;
+            InputUrl = inputUrl;
             _htmlDoc = new HtmlDocument();
-            _htmlDoc.LoadHtml(result.Html);
+            _htmlDoc.LoadHtml(Html);
         }
 
         public string GetValueFromXpath(string xpath)

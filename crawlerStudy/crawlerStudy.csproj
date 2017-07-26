@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Crawler.cs" />
+    <Compile Include="DownLoader.cs" />
     <Compile Include="HttpHelper.cs" />
     <Compile Include="Journal.cs" />
     <Compile Include="JournalCnki.cs" />
